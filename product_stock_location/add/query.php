@@ -15,10 +15,10 @@
 	{
 		
 		$psl_p_id=$_POST['p_id'];
-		$psl_s_id=$admin->a_s_id;
+		//$psl_s_id=$admin->a_s_id;
 		$psl_p_stock=$_POST['psl_p_stock'];
 		
-		$product_stock_location_insert=$db->query("INSERT INTO product_stock_location VALUES('','$psl_p_id','$psl_s_id','$psl_p_stock','1')");
+		$product_stock_location_insert=$db->query("INSERT INTO product_stock_location VALUES('','$psl_p_id','$a_s_id','$psl_p_stock','1')");
 		
 		header("Location: ?folder=product_stock_location&file=view");
 		

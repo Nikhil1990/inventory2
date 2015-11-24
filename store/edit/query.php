@@ -25,6 +25,7 @@
 		$s_email=$_POST['s_email'];
 		
 		$store_edit=$db->query("UPDATE store SET s_name='$s_name',s_address='$s_address',s_cp_name='$s_cp_name',s_phoneno='$s_phoneno',s_email='$s_email' WHERE s_id='$s_id'");
+		
 	
 		$foo = new Upload($_FILES['s_logo']); 
 	
