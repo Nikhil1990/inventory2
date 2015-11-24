@@ -10,16 +10,29 @@
 	
 <div class="box-body">
 
+<?php 
+	
+	if($purchase_order_details)
+	{
+		
+?>
+
 	<form method="POST">
 		
-		<div class="form-group pull-right col-md-4">
+		<div class="form-group">
+				
             <label>Date range:</label>
+					
             <div class="input-group">
+					
                 <div class="input-group-addon">
-                    <i class="fa fa-calendar"></i>
-                </div>
-            <input type="text" class="form-control pull-right" id="reservation"/>
-         </div>
+					<i class="fa fa-calendar"></i>
+				</div>
+					  
+				<input type="text" class="form-control pull-right" id="reservation">
+					  
+			</div>
+					
         </div>
 		
 	</form>
@@ -72,11 +85,21 @@
 	</table>
 	
 </div>
+
+<?php 
+	
+	}
+	else
+	{
+		die("No Pending Invoices");
+	}
+?>
+
 </div>
 </div>
 </div>
 
-<script src="../../plugins/daterangepicker/daterangepicker.js" type="text/javascript"></script>
+<script src="./plugins/daterangepicker/daterangepicker.js" type="text/javascript"></script>
 
  <script type="text/javascript">
  
@@ -139,4 +162,5 @@
           showInputs: false
         });
       });
+	  
     </script>

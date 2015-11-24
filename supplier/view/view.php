@@ -3,15 +3,22 @@
 	<div class="box box-primary">
 		<div class="box-header">
 		
-		<center><h2 class="box-title">View Supplier</h2></center>
+			<center><h2 class="box-title">View Supplier</h2></center>
 			
-</div>
+		</div>
 
 <form method="POST">
 
 <div class="box-body">
 
 <a href="?folder=supplier&file=add" class="btn btn-success">Add New Supplier</a><br><br>
+
+<?php 
+	
+	if($supplier_details)
+	{
+
+?>
 
 	<table class="table table-bordered">
 	
@@ -71,6 +78,13 @@
 	
 </div>
 </form>
+<?php 
+	}
+	else
+	{
+		die("No records are present");
+	}
+?>
 </div>	
 </div>
 </div>

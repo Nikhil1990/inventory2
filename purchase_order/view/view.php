@@ -12,6 +12,12 @@
 
 <div class="box-body">
 
+<?php 
+	
+	if($purchase_order_details)
+	{
+?>
+
 	<table class="table table-bordered">
 	
 		<thead>
@@ -62,7 +68,16 @@
 	</table>
 	
 </div>
-</form>
+
+<?php 
+	
+	}
+	else
+	{
+		die("No records are present");
+	}
+?>
+
 </div>	
 </div>
 </div>

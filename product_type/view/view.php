@@ -13,6 +13,13 @@
 
 <a href="?folder=product_type&file=add" class="btn btn-success">Add Product Type</a><br><br>
 
+<?php 
+	
+	if($product_type_details)
+	{
+	
+?>
+
 	<table class="table table-bordered">
 	
 		<thead>
@@ -56,7 +63,14 @@
 	</table>
 	
 </div>
-</form>
+<?php 
+	
+	}
+	else
+	{
+		die("No records are present");
+	}
+?>
 </div>	
 </div>
 </div>

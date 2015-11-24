@@ -13,6 +13,13 @@
 
 <a href="?folder=category&file=add" class="btn btn-success">Add New Category</a><br><br>
 
+<?php 
+	
+	if($category_details)
+	{
+	
+?>
+
 	<table class="table table-bordered">
 	
 		<thead>
@@ -59,7 +66,16 @@
 	</table>
 	
 </div>
-</form>
+
+<?php 
+	
+	}
+	else
+	{
+		die("No records are present");
+	}
+?>
+
 </div>	
 </div>
 </div>

@@ -11,6 +11,13 @@
 
 <div class="box-body">
 
+<?php 
+	
+	if($tax_details)
+	{
+
+?>
+
 	<table class="table table-bordered">
 	
 		<thead>
@@ -60,6 +67,13 @@
 	
 </div>
 </form>
+<?php 
+	}
+	else
+	{
+		die("No records are present");
+	}
+?>
 </div>	
 </div>
 </div>

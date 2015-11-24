@@ -13,6 +13,13 @@
 
 <a href="?folder=admin&file=add" class="btn btn-success">Add New Admin</a><br><br>
 
+<?php
+	
+	if($admin_details)
+	{
+	
+?>
+
 	<table class="table table-bordered">
 	
 		<thead>
@@ -64,7 +71,16 @@
 	</table>
 	
 </div>
-</form>
+
+<?php 
+	
+	}
+	else
+	{
+		die("No records are present");
+	}
+?>
+
 </div>	
 </div>
 </div>

@@ -13,6 +13,13 @@
 
 <a href="?folder=customer&file=add" class="btn btn-success">Add New Customer</a><br><br>
 
+<?php 
+
+	if($customer_details)
+	{
+
+?>
+
 	<table class="table table-bordered">
 	
 		<thead>
@@ -69,7 +76,16 @@
 	</table>
 	
 </div>
-</form>
+
+<?php 
+	
+	}
+	else
+	{
+		die("No records are present");
+	}
+?>
+
 </div>	
 </div>
 </div>

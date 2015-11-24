@@ -13,6 +13,13 @@
 
 <a href="?folder=store&file=add" class="btn btn-success">Add New Store</a><br><br>
 
+<?php 
+	
+	if($store_details)
+	{
+	
+?>
+
 	<table class="table table-bordered">
 	
 		<thead>
@@ -68,6 +75,15 @@
 	
 </div>
 </form>
+<?php 
+	
+	}
+	else
+	{
+		die("No records are present");
+	}
+	
+?>
 </div>	
 </div>
 </div>

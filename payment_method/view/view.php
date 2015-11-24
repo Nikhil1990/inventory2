@@ -13,6 +13,12 @@
 
 <a href="?folder=payment_method&file=add" class="btn btn-success">Add New Payment Method</a><br><br>
 
+<?php 
+	
+	if($payment_method_details)
+	{
+?>
+
 	<table class="table table-bordered">
 	
 		<thead>
@@ -58,7 +64,14 @@
 	</table>
 	
 </div>
-</form>
+<?php 
+	
+	}
+	else
+	{
+		die("No records are present");
+	}
+?>
 </div>	
 </div>
 </div>

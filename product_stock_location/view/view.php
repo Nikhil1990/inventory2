@@ -13,6 +13,12 @@
 
 <a href="?folder=product_stock_location&file=add" class="btn btn-success">Add Product Stock</a><br><br>
 
+<?php 
+	
+	if($product_stock_location_details)
+	{
+?>
+
 	<table class="table table-bordered">
 	
 		<thead>
@@ -68,7 +74,14 @@
 	</table>
 	
 </div>
-</form>
+<?php
+ 
+	}
+	else
+	{
+		die("No records are present");
+	}
+?>
 </div>	
 </div>
 </div>

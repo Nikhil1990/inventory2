@@ -297,7 +297,7 @@
 			  
 				<ul class="treeview-menu">
 				
-					<li class="active"><a href="?folder=admin_type&file=view"><i class="fa fa-circle-o"></i>View</a></li>
+					<li class="active"><a href="?folder=admin_type&file=view"><i class="fa fa-circle-o"></i>View Admin Type</a></li>
 
 				</ul>
 			 
@@ -315,7 +315,7 @@
 			  
 				<ul class="treeview-menu">
 				
-					<li class="active"><a href="?folder=brand&file=view"><i class="fa fa-circle-o"></i>View</a></li>
+					<li class="active"><a href="?folder=brand&file=view"><i class="fa fa-circle-o"></i>View Brand</a></li>
 
 				</ul>
 			 
@@ -333,7 +333,7 @@
 			  
 				<ul class="treeview-menu">
 				
-					<li class="active"><a href="?folder=category&file=view"><i class="fa fa-circle-o"></i>View</a></li>
+					<li class="active"><a href="?folder=category&file=view"><i class="fa fa-circle-o"></i>View Category</a></li>
 
 				</ul>
 			 
@@ -369,7 +369,7 @@
 			  
 				<ul class="treeview-menu">
 				
-					<li class="active"><a href="?folder=product&file=view"><i class="fa fa-circle-o"></i>View</a></li>
+					<li class="active"><a href="?folder=product&file=view"><i class="fa fa-circle-o"></i>View Product</a></li>
 					
 				</ul>
 			 
@@ -387,7 +387,7 @@
 			  
 				<ul class="treeview-menu">
 				
-					<li class="active"><a href="?folder=product_stock_location&file=view"><i class="fa fa-circle-o"></i>View</a></li>
+					<li class="active"><a href="?folder=product_stock_location&file=view"><i class="fa fa-circle-o"></i>View Product Stock Location</a></li>
 					
 				</ul>
 			 
@@ -405,7 +405,7 @@
 			  
 				<ul class="treeview-menu">
 				
-					<li class="active"><a href="?folder=store&file=view"><i class="fa fa-circle-o"></i>View</a></li>
+					<li class="active"><a href="?folder=store&file=view"><i class="fa fa-circle-o"></i>View Store</a></li>
 					
 				</ul>
 			 
@@ -423,7 +423,7 @@
 			  
 				<ul class="treeview-menu">
 				
-					<li class="active"><a href="?folder=supplier&file=view"><i class="fa fa-circle-o"></i>View</a></li>
+					<li class="active"><a href="?folder=supplier&file=view"><i class="fa fa-circle-o"></i>View Supplier</a></li>
 					
 				</ul>
 			 
@@ -441,7 +441,7 @@
 			  
 				<ul class="treeview-menu">
 				
-					<li class="active"><a href="?folder=customer_category&file=view"><i class="fa fa-circle-o"></i>View</a></li>
+					<li class="active"><a href="?folder=customer_category&file=view"><i class="fa fa-circle-o"></i>View Customer Category</a></li>
 					
 				</ul>
 			 
@@ -459,13 +459,13 @@
 			  
 				<ul class="treeview-menu">
 				
-					<li class="active"><a href="?folder=customer&file=view"><i class="fa fa-circle-o"></i>View</a></li>
+					<li class="active"><a href="?folder=customer&file=view"><i class="fa fa-circle-o"></i>View Customer</a></li>
 					
 				</ul>
 			 
             </li>
 			
-			<!-- Tax-->
+			<!-- Tax -->
 		
 			<li class="treeview">
 			
@@ -477,13 +477,13 @@
 			  
 				<ul class="treeview-menu">
 				
-					<li class="active"><a href="?folder=tax&file=view"><i class="fa fa-circle-o"></i>View</a></li>
+					<li class="active"><a href="?folder=tax&file=view"><i class="fa fa-circle-o"></i>View Tax</a></li>
 				
 				</ul>
 			 
             </li>
 			
-			<!--Purchase Product-->
+			<!-- Purchase Product -->
 			
 			<li class="treeview">
 			
@@ -495,13 +495,13 @@
 			  
 				<ul class="treeview-menu">
 				
-					<li class="active"><a href="?folder=purchase_product&file=view"><i class="fa fa-circle-o"></i>View</a></li>
+					<li class="active"><a href="?folder=purchase_product&file=view"><i class="fa fa-circle-o"></i>View Purchase Product</a></li>
 				
 				</ul>
 			 
             </li>
 			
-			<!--Purchase Order Payments-->
+			<!-- Purchase Order Payments -->
 			
 			<li class="treeview">
 			
@@ -519,7 +519,7 @@
 			 
             </li>
 			
-			<!--Ststictics-->
+			<!-- Ststictics -->
 			
 			<li class="treeview">
 			
@@ -532,6 +532,24 @@
 				<ul class="treeview-menu">
 				
 					<li class="active"><a href="?folder=statistics&file=view"><i class="fa fa-circle-o"></i>View Statistics</a></li>
+				
+				</ul>
+			 
+            </li>
+			
+			<!-- Pending Invoices -->
+			
+			<li class="treeview">
+			
+				<a href="">
+			  
+					<i class="fa fa-user"></i> <span>Pending Invoices</span> <i class="fa fa-angle-left pull-right"></i>
+				
+				</a>
+			  
+				<ul class="treeview-menu">
+				
+					<li class="active"><a href="?folder=pending_invoices&file=view"><i class="fa fa-circle-o"></i>View Pending Invoices</a></li>
 				
 				</ul>
 			 

@@ -12,9 +12,8 @@
 		
 		//insert into product_stock
 		
-		$product_stock_insert=$db->query("INSERT INTO product_stock VALUES('','$ps_p_id','$ps_price','$ps_qty',CURDATE(),'$a_id','1')");
+		$product_stock_insert=$db->query("INSERT INTO product_stock VALUES('','$ps_p_id','$a_s_id','$ps_price','$ps_qty',CURDATE(),'$a_id','1')");
 		
-		$db->debug();
 		
 	}
 	
