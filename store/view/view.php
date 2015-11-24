@@ -58,9 +58,9 @@
 						<td><img src="<?php echo "./logo/".$s_id.".jpg"; ?>?time=123456789" class="user-image" alt="User Image"/></td>
 	
 
-						<td><center><abbr title="Edit Store"><a href="?folder=store&file=edit&s_id=<?php echo $store->s_id; ?>" class="btn btn-primary fa fa-edit"></a></abbr></center></td>
+						<td><center><abbr title="Edit Store"><a href="?folder=store&file=edit&s_id=<?php echo $s_id; ?>" class="btn btn-primary fa fa-edit"></a></abbr></center></td>
 						
-						<td><center><abbr title="Delete Store"><a href="?folder=store&file=delete&s_id=<?php echo $store->s_id; ?>" class="btn btn-primary fa fa-trash"></a></abbr></center></td>
+						<td><center><abbr title="Delete Store"><a href="?folder=store&file=delete&s_id=<?php echo $s_id; ?>" class="btn btn-primary fa fa-trash"></a></abbr></center></td>
 
 					</tr>
 			<?php 
